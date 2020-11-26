@@ -1,0 +1,20 @@
+http://192.168.31.32:8080/renren-fast
+
+
+登录接口
+    请求方法:/app/login
+    请求方法：post
+    请求头：Content-Type:application/json;charset=UTF-8
+    请求体实例：
+    {
+          "mobile":"13612345678",
+          "password":"admin",
+    }
+
+    响应结果:
+     {
+     "msg":"success",
+     "code":0,
+     "expire":604800
+     "token":"fhufgsdhfcfhdowfhwkhfffffg.dyfugdysdg"
+     }
